@@ -1,0 +1,34 @@
+@import "../../../../assets/styles/config/variables";
+@import "../../../../assets/styles/theme/colors";
+
+.stats {
+    margin: 0;
+    padding: 0;
+    li {
+        list-style: none;
+        margin: 0 0 12px 0;
+        padding: 0;
+        strong {
+            display: block;
+            //margin-right: 8px;
+        }
+        .skill {
+            background: $bg-skill-color;
+            border-radius: 8px;
+            display: inline-block;
+            height: 16px;
+            margin: 0;
+            position: relative;
+            width: 100px;
+            span {
+                background: darken($bg-skill-color, 8%);
+                border-radius: 8px;
+                display: inline-block;
+                height: 16px;
+                left: 0;
+                position: absolute;
+                top: 0;
+            }
+        }
+    }
+}

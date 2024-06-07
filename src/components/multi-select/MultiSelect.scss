@@ -1,0 +1,72 @@
+@import "../../assets/styles/config/variables";
+@import "../../assets/styles/theme/colors";
+
+.multi-select {
+    position: relative;
+    .chips {
+        background: $base-color;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        min-height: 24px;
+        padding: 8px;
+        > .tag {
+            background: $bg-default-color;
+            border-radius: 4px;
+            color: $text-default-color;
+            display: inline-block;
+            height: 24px;
+            line-height: 2;
+            font-size: $tiny-text;
+            margin: 4px 24px 4px 8px;
+            padding: 4px 24px 4px 8px;
+            position: relative;
+            .icon-close {
+                cursor: pointer;
+                font-size: $highlight-text;
+                position: absolute;
+                top: 2px;
+                transition: all 0.4s ease-in;
+                right: 6px;
+                &:hover {
+                }
+            }
+        }
+    }
+    .list {
+        background: $bg-select-color;
+        border-radius: 8px;
+        margin-top: 8px;
+        overflow: hidden;
+        width: 100%;
+        z-index: 2;
+        ul {
+            height: 128px;
+            margin: 0;
+            overflow-x: hidden;
+            overflow-y: auto;
+            padding: 12px 0 0 0;
+            li {
+                margin: 0;
+                padding: 4px 16px;
+                transition: all 0.4s ease-in;
+                text-align: left;
+                position: relative;
+                &:hover {
+                    background: darken($bg-select-color, 4%);
+                }
+                label {
+                    color: $text-select-color;
+                    display: inline-block;
+                    font-size: $highlight-text;
+                    margin: 0 0 0 8px;
+                    position: relative;
+                    text-transform: capitalize;
+                    top: -2px;
+                    width: auto;
+                }
+            }
+        }
+    }
+}

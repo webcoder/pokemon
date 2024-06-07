@@ -1,0 +1,37 @@
+@import "../../../../../assets/styles/config/variables";
+@import "../../../../../assets/styles/theme/colors";
+
+.day {
+    display: flex;
+    > div {
+        width: 33.3%;
+    }
+    h3,
+    h4 {
+        margin: 0;
+    }
+    .temperature {
+        strong {
+            color: $text-default-color;
+            font-size: $big-text;
+        }
+        span {
+            font-size: $subtitle-text;
+        }
+        .legend {
+            color: $text-widget-color;
+            span {
+                font-size: $default-text;
+            }
+        }
+    }
+    .description {
+        color: $text-label-color;
+        strong {
+            color: $text-select-color;
+            font-size: $subtitle-text;
+            line-height: 1.2;
+            text-transform: capitalize;
+        }
+    }
+}

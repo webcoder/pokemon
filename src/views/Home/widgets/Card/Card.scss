@@ -1,0 +1,46 @@
+@import "../../../../assets/styles/config/variables";
+@import "../../../../assets/styles/theme/colors";
+.element {
+    background-color: $bg-widget-color;
+    border-radius: 16px;
+    display: flex;
+    padding: 20px;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    > div {
+        text-align: left;
+        width: 50%;
+        h5 {
+            font-size: $main-text;
+            margin: 0 0 12px 0;
+        }
+        h6 {
+            color: $text-stats-color;
+            font-size: $title-text;
+            margin: 0;
+        }
+        p {
+            color: $text-widget-color;
+            font-size: $highlight-text;
+            margin: 0 0 8px 0;
+            line-height: 1.6;
+            padding: 0;
+        }
+    }
+}
+
+.skills {
+    strong {
+        display: block;
+        padding: 0 4px;
+        &::after {
+            content: ",";
+        }
+        &:last-child {
+            &::after {
+                content: "";
+            }
+        }
+    }
+}

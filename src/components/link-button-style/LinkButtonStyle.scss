@@ -1,0 +1,25 @@
+@import "../../assets/styles/config/variables";
+@import "../../assets/styles/theme/colors";
+
+a {
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 38px;
+    &.default {
+        background: $button-default-color;
+        color: $text-default-color;
+        font-size: $highlight-text;
+        &:hover {
+            background: darken($button-default-color, 8%);
+        }
+    }
+    &.edit {
+        background: $button-edit-color;
+        color: $text-select-color;
+        font-size: $highlight-text;
+        &:hover {
+            background: darken($button-edit-color, 12%);
+        }
+    }
+}

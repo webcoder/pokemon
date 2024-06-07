@@ -1,0 +1,43 @@
+//- Colours
+//- Use http://www.color-blindness.com/color-name-hue/
+// Palette
+// https://coolors.co/f21d2f-082b59-2c7bbf-f2b90c-bf920a
+
+//- Red
+$torch-red: #f21d2f;
+//- Blue
+$sapphire: #082b59;
+$pelorous: #2c7bbf;
+//- Yellow
+$moon-yellow: #f2b90c;
+$dark-goldenrod: #bf920a;
+
+// - Primary Colors - //
+$brand-color: $sapphire;
+$first-accent-color: $moon-yellow;
+$second-accent-color: $torch-red;
+
+// - Base Colors - //
+$base-color: white;
+$support-color: black;
+
+// - Color by functionality - //
+// - Backogrund
+$bg-default-color: $brand-color;
+$bg-error-color: $dark-goldenrod;
+$bg-input-color: $base-color;
+$bg-select-color: $first-accent-color;
+$bg-widget-color: $dark-goldenrod;
+$bg-skill-color: $pelorous;
+$bg-percent-color: $first-accent-color;
+// Forms
+$button-default-color: $second-accent-color;
+$button-edit-color: $base-color;
+// - Text
+$text-title-color: $first-accent-color;
+$text-default-color: $base-color;
+$text-label-color: $first-accent-color;
+$text-input-color: $brand-color;
+$text-select-color: $support-color;
+$text-widget-color: $second-accent-color;
+$text-stats-color: $brand-color;

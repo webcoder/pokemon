@@ -1,0 +1,48 @@
+//- Container site
+$max-width: 1280px;
+//- Folders
+$base: "/assets/";
+$images: $base + "images/";
+
+//- Weight Typography
+//- e.g.
+$thin: 200;
+$light: 300;
+$regular: 400;
+$medium: 500;
+$semi-bold: 600;
+$bold: 700;
+
+// Typography
+$big-text: 2.488rem;
+$main-text: 2.074rem;
+$title-text: 1.728rem;
+$subtitle-text: 1.44rem;
+$highlight-text: 1.2rem;
+$default-text: 1rem;
+$tiny-text: 0.833rem;
+
+//- Breakpoints
+$desktop: $max-width;
+$tablet-landscape: 1024px;
+$tablet-portrait: 960px;
+$tablet: 768px;
+$mobile: 560px;
+$mobile-landscape: 480px;
+$mobile-portrait: 320px;
+
+//- Grid
+$col-1: 8.33333333%;
+$col-2: 16.66666667%;
+$col-3: 25%;
+$col-4: 33.33333333%;
+$col-5: 41.66666667%;
+$col-6: 50%;
+$col-7: 58.33333333%;
+$col-8: 66.66666667%;
+$col-9: 75%;
+$col-10: 83.33333333%;
+$col-11: 91.66666667%;
+$col-12: 100%;
+
+//- Stack layout

@@ -1,0 +1,38 @@
+/************************************************
+ * SECTIONS
+************************************************/
+body {
+    background: $bg-default-color;
+    padding: 0;
+}
+
+h1 {
+    color: $text-default-color;
+    letter-spacing: 0.5px;
+}
+
+.wrapper {
+    header {
+        > img {
+            height: auto;
+            margin: 20px auto;
+            max-width: 240px;
+        }
+    }
+}
+
+footer {
+    color: $text-title-color;
+    text-align: center;
+}
+
+.msg-error {
+    background: $bg-error-color;
+    border-radius: 2px;
+    display: block;
+    color: $text-default-color;
+    font-size: $tiny-text;
+    margin-top: 4px;
+    padding: 4px 8px;
+    text-align: left;
+}

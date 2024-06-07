@@ -1,0 +1,23 @@
+@import "../../../../assets/styles/theme/colors";
+
+.weather {
+    background: $bg-skill-color;
+    border-radius: 12px;
+    margin: 40px 0 0 0;
+    padding: 12px;
+    display: flex;
+    > div {
+        width: 50%;
+        &:first-child {
+            border-right: 1px solid black;
+        }
+        &:last-child {
+            border-left: 1px solid black;
+        }
+    }
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
